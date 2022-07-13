@@ -111,7 +111,7 @@
             <nav class="navbar navbar-expand-lg">
 
                 <!-- Logo / Main Heading -->
-                <a class="navbar-brand" href="#">TITRE DU SITE</a>
+                <a class="navbar-brand" href="#"><?= bloginfo('title') ?></a>
 
                 <!-- Burger Menu Btn -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
